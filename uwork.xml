@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite>
+	<id>S6</id>
+	<name>Master</name>
+	<description></description>
+	<sections>
+		<section>
+		<name>Registration</name>
+		<description></description>
+						<cases>
+												<case>
+				<id>C46</id>
+				<title>Registracion valid credentials</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>High</priority>
+								<assignedto>Talat Abdullayev</assignedto>
+												<estimate>960</estimate>
+																								<references></references>
+												<labels>Funcsional, Regresion, Smoke</labels>
+																<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;Qeydiyyat sehifesi achilmalidir.&lt;/p&gt;</preconds>
+											<steps_separated><step>
+<content>&lt;p&gt;Duzgun email daxil et&lt;/p&gt;</content><expected>&lt;p&gt;Email daxil edildi&lt;/p&gt;</expected></step>
+<step>
+<content>&lt;p&gt;duzgun parolu yaz&lt;/p&gt;</content><expected>&lt;p&gt;Parol gebul edildi&lt;/p&gt;</expected></step>
+<step>
+<content>&lt;p&gt;Qeydiyyat dumesini bas&lt;/p&gt;</content><expected>&lt;p&gt;Qeydiyyat emaili gonderildi&lt;/p&gt;&lt;p&gt;Qeydiyyatdan kechdi&lt;/p&gt;</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+															<case>
+				<id>C47</id>
+				<title>Registracion 1</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+								<assignedto>Talat Abdullayev</assignedto>
+												<estimate>480</estimate>
+																								<references></references>
+												<labels>Funcsional</labels>
+																<custom>
+											<automation_type><id>0</id><value> None</value></automation_type>
+											<is_automated>false</is_automated>
+											<preconds>&lt;p&gt;Qeydiyyat sehifesi achilmalidir - &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://uwork.az/login&quot; id=&quot;isPasted&quot;&gt;https://uwork.az/login&lt;/a&gt;&lt;/p&gt;</preconds>
+											<steps_separated><step>
+<content>&lt;p&gt;Passworda sehf shifre yaz&lt;/p&gt;</content><expected>&lt;p&gt;Invalid messaji chixmalidir&lt;/p&gt;</expected></step>
+<step>
+<content>&lt;p&gt;Sehf e-mail daxil et&lt;/p&gt;</content><expected>&lt;p&gt;Invalid messaji chixmalidir&lt;/p&gt;</expected></step>
+<step>
+<content>&lt;p&gt;Daxil ol dumesini bas&lt;/p&gt;</content><expected>&lt;p&gt;Xeta mesaji chixmalidir&lt;/p&gt;</expected></step>
+</steps_separated>
+									</custom>
+								<is_converted>1</is_converted>
+			</case>
+								</cases>
+							</section>
+	</sections>
+</suite>
