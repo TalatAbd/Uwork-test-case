@@ -21,7 +21,7 @@
 																<custom>
 											<automation_type><id>0</id><value> None</value></automation_type>
 											<is_automated>false</is_automated>
-											<preconds>&lt;p&gt;Qeydiyyat sehifesi achilmalidir.&lt;/p&gt;</preconds>
+											<preconds>&lt;p&gt;Qeydiyyat achilmalidir.&lt;/p&gt;</preconds>
 											<steps_separated><step>
 <content>&lt;p&gt;Duzgun email daxil et&lt;/p&gt;</content><expected>&lt;p&gt;Email daxil edildi&lt;/p&gt;</expected></step>
 <step>
