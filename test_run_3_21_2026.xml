@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R13</id>
+	<name>Test Run 3/21/2026</name>
+	<description></description>
+	<config></config>
+	<createdon>2026-03-21T07:23:30Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	
+			
+	<stats>
+										<passed>
+			<percent>100</percent>
+			<count>1</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>0</percent>
+			<count>0</count>
+		</failed>
+																		<automation_passed>
+			<percent>0</percent>
+			<count>0</count>
+		</automation_passed>
+											<automation_failed>
+			<percent>0</percent>
+			<count>0</count>
+		</automation_failed>
+											<automation_error>
+			<percent>0</percent>
+			<count>0</count>
+		</automation_error>
+																								</stats>	<sections>
+	<section>
+		<name>Registration</name>
+		<description></description>
+						<tests>
+						            																																																			<test>
+				<id>T105</id>
+				<title>Registracion 1</title>
+												<template>Test Case (Steps)</template>
+																<type>Functional</type>
+																<priority>Medium</priority>
+																<estimate>480</estimate>
+																								<references></references>
+								
+								
+												<custom>
+															<automation_type><id>0</id><value> None</value></automation_type>
+															<is_automated>false</is_automated>
+															<preconds>&lt;p&gt;Qeydiyyat sehifesi achilmalidir - &lt;a data-fr-linked=&quot;true&quot; href=&quot;https://uwork.az/login&quot; id=&quot;isPasted&quot;&gt;https://uwork.az/login&lt;/a&gt;&lt;/p&gt;</preconds>
+															<steps_separated><step>
+<content>&lt;p&gt;Passworda sehf shifre yaz&lt;/p&gt;</content><expected>&lt;p&gt;Invalid messaji chixmalidir&lt;/p&gt;</expected></step>
+<step>
+<content>&lt;p&gt;Sehf e-mail daxil et&lt;/p&gt;</content><expected>&lt;p&gt;Invalid messaji chixmalidir&lt;/p&gt;</expected></step>
+<step>
+<content>&lt;p&gt;Daxil ol dumesini bas&lt;/p&gt;</content><expected>&lt;p&gt;Xeta mesaji chixmalidir&lt;/p&gt;</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C47</caseid>
+																			<casestatus></casestatus>
+																													<caseassignedto>Talat Abdullayev</caseassignedto>
+																
+					<caselabels>Funcsional</caselabels>
+												<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2026-03-21T07:25:18Z</createdon>
+																		<createdby>Talat Abdullayev</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+															<step_results>
+																		<step>
+<content>&lt;p&gt;Passworda sehf shifre yaz&lt;/p&gt;</content><expected>&lt;p&gt;Invalid messaji chixmalidir&lt;/p&gt;</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>&lt;p&gt;Sehf e-mail daxil et&lt;/p&gt;</content><expected>&lt;p&gt;Invalid messaji chixmalidir&lt;/p&gt;</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>&lt;p&gt;Daxil ol dumesini bas&lt;/p&gt;</content><expected>&lt;p&gt;Xeta mesaji chixmalidir&lt;/p&gt;</expected><actual></actual><status>Untested</status></step>
+								</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2026-03-21T07:23:30Z</createdon>
+																		<createdby>Talat Abdullayev</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+	<section>
+		<name>Elaqe</name>
+		<description></description>
+									</section>
+</sections>
+</run>
